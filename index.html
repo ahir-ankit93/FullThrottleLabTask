@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PLATE IQ</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <div ng-controller="myAppCtrl">
+        <div class="container col-lg-12 col-md-12">
+            <h6><header ng-include="'/views/menu.html'"></header></h6>   
+            <ng-View> </ng-View>               
+        </div>
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <form class="form-inline">
+                <a class="nav-link" href="#!/home">Home</a>
+                <a class="nav-link" href="#!/product">Products</a>
+                <a class="nav-link" href="#!/whyiq">Why Plate IQ</a>
+                <a class="nav-link" href="#!/integretion">Integretions</a>
+                <a class="nav-link" href="#!/customer">Customers</a>
+            </form>
+        </div>
+    </div>
+          
+    <script src="JS/angular.min.js"></script>
+    <script src="JS/angular-route.min.js"></script>
+    <script src="JS/app.js"></script>
+    <script src="JS/home.js"></script>
+    <script src="JS/product.js"></script>
+    <script src="JS/whyiq.js"></script>
+    <script src="JS/integretion.js"></script>
+    <script src="JS/customer.js"></script>
+    <script src="JS/login.js"></script>
+    <script src="JS/demo.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+
+
+   <section id="contact">
+        <div class="container">
+            <h3 class="text-center text-uppercase">Products</h3>
+            <p class="text-center w-75 m-auto">The engineering backend of Silicon Valley. 
+                    We partner with incredible startups to code products that will change the world.<br>
+                    We are based in Bangalore, India. Whatever may be the reason, if you like to reach us-<br>
+                    Please send us a detail email, with your contact details, 
+                    and we will get back to you as soon as possible!<br> 
+                contact@fullthrottlelabs.com</p>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+                    <div class="card border-0">
+                         <div class="card-body text-center">
+                                <table class="table table-responisve border">
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Id</th>
+                                            <th>Photo</th>
+                                            <th>Runs</th>
+                                        </tr>
+                                        <tr ng-repeat="player in players">
+                                            <td>{{player.name}}</td>
+                                            <td>{{player.id}}</td>
+                                            <td><img ng-src="{{player.photo}}"/></td>
+                                            <td>{{player.runs}}</td>
+                                        </tr>
+                                
+                                </table>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+    
+            
+
